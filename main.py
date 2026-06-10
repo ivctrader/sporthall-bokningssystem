@@ -16,8 +16,8 @@ BOOKINGS_FILE = "bokningar.json"
 
 
 def main():
-    approved_emails = {"arif.khalifa@jenseneducation.se",
-                       "ivacri791218@student.jenseneducation.se"}
+    approved_emails = {"exempel2@gmail.com",
+                       "exempel@gmail.com"}
     bookings = load_bookings(BOOKINGS_FILE)
 
     print("Välkommen till bokningssystemet!")
